@@ -1,0 +1,181 @@
+:root {
+  --aqua-deep: #084c37;
+  --black: #000000;
+  --denim: #2f6fc6;
+  --heavy-metal: #2a2928;
+  --hint-of-red: #f9f9f9;
+  --rose: #ff5656;
+  --sunset-orange: #ff6250;
+  --te-papa-green: #1d4835;
+  --white: #ffffff;
+
+  --font-size-18_3px: 18.3px;
+  --font-size-18_5px: 18.5px;
+  --font-size-9_6px: 9.6px;
+  --font-size-9_7px: 9.7px;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 21px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 22px;
+  --font-size-xxs: 12px;
+  --font-size-xxxl: 23px;
+  --font-size-xxxs: 8px;
+  --font-size-xxxxl: 24px;
+  --font-size-xxxxxl: 26px;
+
+  --font-family-castoro: "Castoro", Helvetica;
+  --font-family-caveat: "Caveat", Helvetica;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-mulish: "Mulish", Helvetica;
+}
+.lato-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.mulish-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-light-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+.castoro-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-castoro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.mulish-normal-black-8px {
+  color: var(--black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.caveat-bold-rose-21px {
+  color: var(--rose);
+  font-family: var(--font-family-caveat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.lato-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.mulish-normal-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-light-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+.castoro-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-castoro);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-light-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+.lato-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-te-papa-green-12px {
+  color: var(--te-papa-green);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-te-papa-green-23px {
+  color: var(--te-papa-green);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-aqua-deep-16px {
+  color: var(--aqua-deep);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.castoro-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-castoro);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.border-2px-white {
+  border: 2px solid var(--white);
+}
+.border-1px-te-papa-green {
+  border: 1px solid var(--te-papa-green);
+}
+.border-1px-heavy-metal {
+  border: 1px solid var(--heavy-metal);
+}

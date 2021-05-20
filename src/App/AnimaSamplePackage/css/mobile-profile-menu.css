@@ -1,0 +1,192 @@
+/* screen - mobile-profile-menu */
+
+#overlay-mobile-profile-menu {
+  background-color: transparent;
+}
+.mobile-profile-menu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100vh;
+  margin: 0px;
+  min-height: 2495px;
+  min-width: 375px;
+  mix-blend-mode: normal;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.mobile-profile-menu .bg-qOyIhn {
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  height: 100.45%;
+  left: -0.27%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0.22%;
+  width: 100.53%;
+}
+.mobile-profile-menu .feedback-qOyIhn {
+  background-color: transparent;
+  height: 4.46%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 68.75%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-profile-menu .log-out-qOyIhn {
+  background-color: transparent;
+  height: 4.46%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 82.14%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-profile-menu .messages-qOyIhn {
+  background-color: transparent;
+  height: 4.46%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 50.89%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-profile-menu .mobile-profile-menu-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 497px;
+  left: calc(50vw - 187.5px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: calc(50vh - 248.5px);
+  width: 375px;
+}
+.mobile-profile-menu .path-0re3Ja {
+  background-color: transparent;
+  height: 105.88%;
+  left: -2.94%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -2.94%;
+  width: 105.88%;
+}
+.mobile-profile-menu .path-1-qOyIhn {
+  background-color: transparent;
+  height: 0.22%;
+  left: 7.87%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 37.28%;
+  width: 84.27%;
+}
+.mobile-profile-menu .path-2-qOyIhn {
+  background-color: transparent;
+  height: 0.22%;
+  left: 7.87%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 77.57%;
+  width: 84.27%;
+}
+.mobile-profile-menu .path-u6m1CF {
+  background-color: transparent;
+  height: 105.88%;
+  left: -2.94%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -2.94%;
+  width: 105.88%;
+}
+.mobile-profile-menu .profile-menu-mobile-OtStgV {
+  background-color: transparent;
+  height: 448px;
+  position: absolute;
+  right: 0px;
+  top: 49px;
+  width: 375px;
+}
+.mobile-profile-menu .profile-notification-qOyIhn {
+  background-color: transparent;
+  height: 4.46%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 41.96%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-profile-menu .profile-picture-qOyIhn {
+  background-color: transparent;
+  height: 15.62%;
+  left: 8.00%;
+  position: absolute;
+  top: 14.96%;
+  width: 18.67%;
+}
+.mobile-profile-menu .subtitle-qOyIhn {
+  background-color: transparent;
+  height: 4.46%;
+  left: 32.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 24.33%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-profile-menu .support-qOyIhn {
+  background-color: transparent;
+  height: 4.46%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 59.82%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-profile-menu .title-qOyIhn {
+  background-color: transparent;
+  height: 5.36%;
+  left: 32.00%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16.74%;
+  white-space: nowrap;
+  width: 43.20%;
+}
+.mobile-profile-menu .x-symbol-qOyIhn {
+  background-color: transparent;
+  cursor: pointer;
+  height: 3.79%;
+  left: 87.47%;
+  position: absolute;
+  top: 4.46%;
+  width: 4.53%;
+}
+.overlay .mobile-profile-menu {
+  background-color: #00000000;
+}

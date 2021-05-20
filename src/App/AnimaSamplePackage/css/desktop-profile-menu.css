@@ -1,0 +1,166 @@
+/* screen - desktop-profile-menu */
+
+#overlay-desktop-profile-menu {
+  background-color: transparent;
+}
+.desktop-profile-menu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100vh;
+  margin: 0px;
+  min-height: 2005px;
+  min-width: 1280px;
+  mix-blend-mode: normal;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.desktop-profile-menu .andrea-baker-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 77px;
+  text-align: center;
+  top: 120px;
+  white-space: nowrap;
+  width: 162px;
+}
+.desktop-profile-menu .bg-qcW52s {
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 3px 16px #1e1e1e21;
+  height: 473px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 13px;
+  top: -1px;
+  width: 292px;
+}
+.desktop-profile-menu .desktop-profile-menu-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 874px;
+  left: calc(50vw - 640.0px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: calc(50vh - 437.0px);
+  width: 1280px;
+}
+.desktop-profile-menu .feedback-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 114px;
+  text-align: left;
+  top: 363px;
+  white-space: nowrap;
+  width: 160px;
+}
+.desktop-profile-menu .log-out-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 114px;
+  text-align: left;
+  top: 427px;
+  white-space: nowrap;
+  width: 160px;
+}
+.desktop-profile-menu .menu-profile-picture-qcW52s {
+  background-color: transparent;
+  height: 80px;
+  position: absolute;
+  right: 119px;
+  top: 30px;
+  width: 80px;
+}
+.desktop-profile-menu .messages-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 114px;
+  text-align: left;
+  top: 275px;
+  white-space: nowrap;
+  width: 160px;
+}
+.desktop-profile-menu .path-2-qcW52s {
+  background-color: transparent;
+  height: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 44px;
+  top: 407px;
+  width: 231px;
+}
+.desktop-profile-menu .profile-menu-cGnJcY {
+  background-color: transparent;
+  height: 471px;
+  position: absolute;
+  right: 27px;
+  top: 63px;
+  width: 304px;
+}
+.desktop-profile-menu .profile-notification-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 114px;
+  text-align: left;
+  top: 231px;
+  white-space: nowrap;
+  width: 160px;
+}
+.desktop-profile-menu .subtitle-qcW52s {
+  background-color: transparent;
+  height: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 44px;
+  top: 210px;
+  width: 231px;
+}
+.desktop-profile-menu .support-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 114px;
+  text-align: left;
+  top: 319px;
+  white-space: nowrap;
+  width: 160px;
+}
+.desktop-profile-menu .title-qcW52s {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 78px;
+  text-align: center;
+  top: 156px;
+  white-space: nowrap;
+  width: 160px;
+}
+.overlay .desktop-profile-menu {
+  background-color: #00000000;
+}

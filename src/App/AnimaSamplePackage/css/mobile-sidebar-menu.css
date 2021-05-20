@@ -1,0 +1,134 @@
+/* screen - mobile-sidebar-menu */
+
+#overlay-mobile-sidebar-menu {
+  background-color: transparent;
+}
+.mobile-sidebar-menu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100vh;
+  margin: 0px;
+  min-height: 2495px;
+  min-width: 375px;
+  mix-blend-mode: normal;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.mobile-sidebar-menu .bg-rx0RFS {
+  background-color: var(--aqua-deep);
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  height: 100.78%;
+  left: -0.27%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0.39%;
+  width: 100.53%;
+}
+.mobile-sidebar-menu .calendar-rx0RFS {
+  background-color: transparent;
+  height: 7.81%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 57.42%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-sidebar-menu .classes-rx0RFS {
+  background-color: transparent;
+  height: 7.81%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 41.80%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-sidebar-menu .home-rx0RFS {
+  background-color: transparent;
+  cursor: pointer;
+  height: 7.81%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 26.17%;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-sidebar-menu .home-rx0RFS:hover {
+
+transform: translate(5px, 0);
+}
+.mobile-sidebar-menu .mobile-sidebar-menu-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 378px;
+  left: calc(50vw - 187.5px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: calc(50vh - 189.0px);
+  width: 375px;
+}
+.mobile-sidebar-menu .path-Zs22WK {
+  background-color: transparent;
+  height: -17.65%;
+  left: 176.47%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 117.65%;
+  width: -76.47%;
+}
+.mobile-sidebar-menu .path-s6F2cq {
+  background-color: transparent;
+  height: -17.65%;
+  left: 276.47%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 117.65%;
+  width: -176.47%;
+}
+.mobile-sidebar-menu .settings-rx0RFS {
+  background-color: transparent;
+  height: 7.81%;
+  left: 8.00%;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 73.05%;
+  white-space: nowrap;
+  width: 42.67%;
+}
+.mobile-sidebar-menu .side-bar-menu-mobile-c19xEe {
+  background-color: transparent;
+  height: 256px;
+  left: 0px;
+  position: relative;
+  top: 57px;
+  width: 375px;
+}
+.mobile-sidebar-menu .x-symbol-rx0RFS {
+  background-color: transparent;
+  cursor: pointer;
+  height: 6.64%;
+  left: 8.00%;
+  position: absolute;
+  top: 7.81%;
+  width: 4.53%;
+}
+.overlay .mobile-sidebar-menu {
+  background-color: #00000000;
+}

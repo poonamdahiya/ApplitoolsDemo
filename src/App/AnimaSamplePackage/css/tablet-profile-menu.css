@@ -1,0 +1,175 @@
+/* screen - tablet-profile-menu */
+
+#overlay-tablet-profile-menu {
+  background-color: transparent;
+}
+.overlay .tablet-profile-menu {
+  background-color: #00000000;
+}
+.tablet-profile-menu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100vh;
+  margin: 0px;
+  min-height: 2470px;
+  min-width: 768px;
+  mix-blend-mode: normal;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.tablet-profile-menu .bg-3N7a6p {
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 2px 30px #1e1e1e1c;
+  height: 100.42%;
+  left: -0.34%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0.21%;
+  width: 100.69%;
+}
+.tablet-profile-menu .click-out-overlay-l83Ps7 {
+  background-color: transparent;
+  height: 560px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 768px;
+}
+.tablet-profile-menu .feedback-3N7a6p {
+  background-color: transparent;
+  height: 5.10%;
+  left: 10.34%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 77.07%;
+  white-space: nowrap;
+  width: 55.17%;
+}
+.tablet-profile-menu .log-out-3N7a6p {
+  background-color: transparent;
+  height: 5.10%;
+  left: 10.34%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 90.66%;
+  white-space: nowrap;
+  width: 55.17%;
+}
+.tablet-profile-menu .menu-profile-picture-3N7a6p {
+  background-color: transparent;
+  height: 16.99%;
+  left: 36.21%;
+  position: absolute;
+  top: 6.37%;
+  width: 27.59%;
+}
+.tablet-profile-menu .messages-3N7a6p {
+  background-color: transparent;
+  height: 5.10%;
+  left: 10.34%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 58.39%;
+  white-space: nowrap;
+  width: 55.17%;
+}
+.tablet-profile-menu .path-1-3N7a6p {
+  background-color: transparent;
+  height: 0.21%;
+  left: 10.17%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 44.59%;
+  width: 79.66%;
+}
+.tablet-profile-menu .path-2-3N7a6p {
+  background-color: transparent;
+  height: 0.21%;
+  left: 10.17%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 86.41%;
+  width: 79.66%;
+}
+.tablet-profile-menu .profile-menu-tablet-l83Ps7 {
+  background-color: transparent;
+  height: 471px;
+  position: absolute;
+  right: 40px;
+  top: 57px;
+  width: 290px;
+}
+.tablet-profile-menu .profile-notification-3N7a6p {
+  background-color: transparent;
+  height: 5.10%;
+  left: 10.34%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 49.04%;
+  white-space: nowrap;
+  width: 55.17%;
+}
+.tablet-profile-menu .subtitle-3N7a6p {
+  background-color: transparent;
+  height: 5.10%;
+  left: 22.76%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 33.12%;
+  white-space: nowrap;
+  width: 55.17%;
+}
+.tablet-profile-menu .support-3N7a6p {
+  background-color: transparent;
+  height: 5.10%;
+  left: 10.34%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 67.73%;
+  white-space: nowrap;
+  width: 55.17%;
+}
+.tablet-profile-menu .tablet-profile-menu-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 560px;
+  left: calc(50vw - 384.0px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: calc(50vh - 280.0px);
+  width: 768px;
+}
+.tablet-profile-menu .title-3N7a6p {
+  background-color: transparent;
+  height: 5.52%;
+  left: 22.41%;
+  letter-spacing: 0.00px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 25.48%;
+  white-space: nowrap;
+  width: 55.86%;
+}
