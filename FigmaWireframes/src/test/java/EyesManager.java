@@ -16,8 +16,8 @@ public class EyesManager {
         
         
         try {
-            String command = String.format("java -jar ImageTester_1.4.13.jar -k %s -f %s -a %s -s %s -lf debug.log" +
-                    "-vs %s -os %s -ap %s", API_KEY, filepath, appName,ApplitoolsServer,viewport,OSName,browserName );
+            String command = String.format("java -jar ImageTester_1.5.1.jar -k %s -f %s -a %s -s %s -vs" +
+                " %s -os %s -ap %s", API_KEY, filepath, appName,ApplitoolsServer,viewport,OSName,browserName );
 
             System.out.println("Command:" + command);
             Process process = Runtime.getRuntime().exec(command);

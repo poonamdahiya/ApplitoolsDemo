@@ -9,7 +9,7 @@ public class ExampleTest {
 
     @Test
     public void takeBaseline() {
-      String destination = "/Users/poonamdahiya/Manulife-Training/ApplitoolsDemo/FigmaWireframes/ValidateDashboard";
+      String destination = "FigmaWireframes/UIValidation";
       
         try{
             Assert.assertTrue("Error while taking baseline", EyesManager.takeBaseline(destination,APIKey));

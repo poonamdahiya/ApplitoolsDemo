@@ -9,7 +9,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import javax.sound.midi.SysexMessage;
 import java.net.URL;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
 
 import static org.testng.util.Strings.isNullOrEmpty;
 
@@ -24,7 +27,7 @@ public class BasicDemo {
     @BeforeClass
     public static void setBatch() {
         batch = new BatchInfo("UI Validation");
-        batch.setId("MyNewBatchId");
+        batch.setId("MyNewBatchId2");
     }
     
     @Before
@@ -59,9 +62,9 @@ public class BasicDemo {
         //Set match level to Layout2 for dynamic content sites.
         eyes.setMatchLevel(MatchLevel.STRICT);
     
-        eyes.setBranchName("Feature-1");
+        eyes.setBranchName("feature1");
 
-        eyes.setParentBranchName("UI/UX-Master");
+        eyes.setParentBranchName("develop");
     
         //set new baseline images. Use this when your site has changed without having to do in the dashboard.
         //eyes.setSaveFailedTests(true);
@@ -77,11 +80,10 @@ public class BasicDemo {
     @Test
     public void basicUITest () throws Exception {
 
-        eyes.open(driver, "UIValidation", "Validate Dashboard", new RectangleSize(1280, 768));
+        eyes.open(driver, "MyNewDemoApp", "ValidateDashboard", new RectangleSize(1280, 768));
 
         // Navigate the browser to the "ACME" demo app.
-        driver.get("file:////Users/poonamdahiya/Manulife-Training/ApplitoolsDemo/src/App/AnimaSamplePackage/desktop" +
-                "-dashboard-new.html");
+        driver.get("file:///"+System.getProperty("user.dir")+"/src/App/AnimaSamplePackage/desktop-dashboard-new.html");
 
         // Visual checkpoint #1 - Check the login page.
         eyes.checkWindow("Dashboard");
@@ -92,41 +94,20 @@ public class BasicDemo {
     
     @Test
     public void basicUITestProfileComponent () throws Exception {
-        
-        eyes.open(driver, "UIValidation", "Validate Profile Menu", new RectangleSize(1280, 768));
-        
+
+        eyes.open(driver, "MyNewDemoApp", "ValidateProfileMenu", new RectangleSize(1280, 768));
+
         // Navigate the browser to the "ACME" demo app.
-        driver.get("file:////Users/poonamdahiya/Manulife-Training/ApplitoolsDemo/src/App/AnimaSamplePackage/desktop-dashboard.html");
-    
+        driver.get("file:///"+System.getProperty("user.dir")+"/src/App/AnimaSamplePackage/desktop-dashboard.html");
+
         driver.findElement(By.cssSelector(".avatar-eizpxM")).click();
-    
+
         eyes.check("Profile", Target.region(By.cssSelector(".profile-menu-cGnJcY")).matchLevel(MatchLevel.LAYOUT));
-        
+
         // Close Eyes Session
         eyes.closeAsync();
     }
-    
-    @Test
-    public void basicUITestVideoComponent () throws Exception {
-        // Create instance of Javascript executor
-        JavascriptExecutor je = (JavascriptExecutor) driver;
-        
-        eyes.open(driver, "UIValidation", "Validate Video Card", new RectangleSize(1280, 768));
-        
-        // Navigate the browser to the "ACME" demo app.
-        driver.get("file:////Users/poonamdahiya/Manulife-Training/ApplitoolsDemo/src/App/AnimaSamplePackage/desktop-dashboard.html");
-        
-    
-        // Click on More classes to see video frame
-        driver.findElement(By.cssSelector("div.more-classes-EjykXH.castoro-normal-black-16px")).click();
-        
-        // Capture video frame
-        eyes.check("Video Component", Target.region(By.cssSelector(".video-card-desktop-a4ImOR")).matchLevel(MatchLevel.LAYOUT));
-    
-    
-        // Close Eyes Session
-        eyes.closeAsync();
-    }
+
     
     @After
     public void afterEach() throws Exception {
